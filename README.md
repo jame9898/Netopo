@@ -1,7 +1,28 @@
-[README.md](https://github.com/user-attachments/files/25679169/README.md)
 # Netopo - 网络拓扑编辑器
 
+[![Version](https://img.shields.io/badge/version-V1.0.1-blue.svg)](https://github.com/your-username/netopo)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10+-orange.svg)](https://www.python.org/)
+[![PySide6](https://img.shields.io/badge/PySide6-6.0+-brightgreen.svg)](https://www.qt.io/qt-for-python)
+
 一个基于 PySide6 开发的网络拓扑图编辑器，支持多种网络设备的可视化编辑、连接管理和机架布局。
+
+## 最新版本 V1.0.1
+
+### 新增功能
+- ✨ **PNG 导出功能**：支持将网络拓扑图导出为 PNG 图片格式
+
+### 问题修复
+- 🐛 **PDF 导出修复**：解决 PDF 文件无法正常保存的问题
+- 🐛 修复网络拓扑图显示为黑色团块的问题
+- 🐛 修复设备清单文字重叠的问题
+
+### 优化改进
+- ⚡ PDF 导出格式全面优化
+- ⚡ 采用 Excel 风格专业表格布局
+- ⚡ 双向线路记录显示
+
+查看 [更新日志](CHANGELOG.md) 了解详细变更。
 
 ## 功能特性
 
@@ -27,6 +48,7 @@
 ### 文件操作
 - 保存/加载拓扑文件（.topo 格式）
 - 导出为 PDF 文档（含拓扑图、机架布局、设备清单）
+- 导出为 PNG 图片（网络拓扑图）
 
 ## 安装
 
