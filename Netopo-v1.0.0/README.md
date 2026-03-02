@@ -31,7 +31,7 @@
 
 ### 方式一：直接运行 EXE（推荐）
 
-从 [Releases](../../releases) 页面下载最新的 `Netopo.exe`，双击运行即可。
+从 [Releases](https://github.com/jame9898/Netopo/releases/tag/v1.0.0) 页面下载最新的 `Netopo.exe`，双击运行即可。
 
 ### 方式二：从源码运行
 
